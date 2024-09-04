@@ -1,0 +1,28 @@
+Start
+    
+    OUTPUT "Enter the day number:"
+    INPUT DayNum
+
+    
+    SET 1st = MONDAY
+
+    
+    IF DayNum % 7 == 1 THEN
+        OUTPUT "MONDAY"
+    ELSE IF DayNum % 7 == 2 THEN
+        OUTPUT "TUESDAY"
+    ELSE IF DayNum % 7 == 3 THEN
+        OUTPUT "WEDNESDAY"
+    ELSE IF DAY_NUMBER % 7 == 4 THEN
+        OUTPUT "THURSDAY"
+    ELSE IF DAY_NUMBER % 7 == 5 THEN
+        OUTPUT "FRIDAY"
+    ELSE IF DAY_NUMBER % 7 == 6 THEN
+        OUTPUT "SATURDAY"
+    ELSE IF DAY_NUMBER % 7 == 0 THEN  // For day number 7 or multiples of 7
+        OUTPUT "SUNDAY"
+    ELSE
+        OUTPUT "INVALID DAY NUMBER"
+    END IF
+
+END

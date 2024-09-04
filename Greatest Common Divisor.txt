@@ -1,0 +1,38 @@
+
+START
+
+    // INPUT
+    OUTPUT "Enter the first number:"
+    INPUT number1
+
+OUTPUT "Enter the second number:"
+    INPUT number2
+
+    // Initialize variables
+    a = number1
+    b = number2
+    
+    // Ensure a is the larger number
+    IF a < b THEN
+        temp = a
+        a = b
+        b = temp
+    END IF
+    
+    // Apply Euclidean Algorithm manually
+    Loop b != 0
+        // Find the remainder of a divided by b
+        remainder = a
+        Loop remainder >= b DO
+            remainder = remainder - b
+        
+        
+        // Update a and b
+        a = b
+        b = remainder
+    
+    
+    // Output the result
+    OUTPUT "The GCD of", number1, "and", number2, "is:", a
+
+END

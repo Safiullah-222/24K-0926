@@ -1,0 +1,21 @@
+
+OUTPUT "Enter number1"
+INPUT num1
+
+OUTPUT "Enter number2"
+INPUT num2
+
+OUTPUT "Enter operator: '*' for Product or '/' for Divison"
+INPUT operator
+result = 0
+
+IF operator == "*" THEN
+   result = num1 * num2
+   OUTPUT result
+ELSE IF
+   operator == "/" THEN
+   result = num1 / num2
+   OUTPUT result
+ELSE
+   OUTPUT "Invalid Operator"
+ENDIF

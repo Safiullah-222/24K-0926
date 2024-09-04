@@ -1,0 +1,20 @@
+Begin
+
+// input
+OUTPUT "Enter a positive number to determine if it is prime"
+INPUT Num
+
+i =0
+//Checking
+Loop count 2 to num-1 Step =1
+IF num/2 ==0 THEN
+  i = i+1
+END IF
+count = count + 1
+IF i>0 THEN
+  OUTPUT "Number is not Prime"
+ElSE
+  OUTPUT "Number is Prime"
+END IF
+
+END

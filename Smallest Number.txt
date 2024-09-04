@@ -1,0 +1,15 @@
+INPUT NUM1
+INPUT NUM2
+INPUT NUM3
+
+smallest = 0
+IF NUM1 > NUM2 THEN
+  smallest = NUM2
+ELSE
+  smallest = NUM1
+END IF
+IF smallest > NUM3 THEN 
+   smallest = NUM3
+END IF
+
+OUTPUT "SMALLEST NUMBER", smallest

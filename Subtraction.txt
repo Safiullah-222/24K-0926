@@ -1,0 +1,21 @@
+START
+
+OUTPUT "Enter larger number"
+INPUT num1
+
+OUTPUT "Enter smaller number"
+INPUT numn2
+
+SET num2 TO Binary
+
+SET num2 TO 2's complement
+
+SET num1 TO Binary
+
+Solution= num1 + num2
+
+SET Result TO Denary
+
+OUTPUT Result
+
+END
