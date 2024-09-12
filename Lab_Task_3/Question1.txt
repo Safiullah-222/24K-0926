@@ -1,0 +1,2 @@
+Int can only take 4 bytes and since the 3000000000 takes up more space, program is printing garbage value,
+so to fix this we need to use long long int as data type.
